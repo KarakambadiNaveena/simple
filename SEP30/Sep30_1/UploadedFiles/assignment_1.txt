@@ -1,0 +1,332 @@
+$ notepad++
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~
+$ notepad++.exe bash -profile
+$ git config --global core.editor "notepad++.exe -multiInst -nosession"
+$git
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~
+$ git config --global core.editor "notepad++.exe -multiInst -noseesion"
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~
+$ git config --global core.editor "notepad++.exe -multiInst -noseesion"$ git config --global core.editor "notepad++.exe -multiInst -nosession"
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <type>     value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~
+$ git config --global -e
+hint: Waiting for your editor to close the file...
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~
+$ git init GitDemo
+Initialized empty Git repository in C:/Users/vaishnavi/GitDemo/.git/
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~
+$ ls -al
+total 11180
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 19:06  ./
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  5 15:47  ../
+drwxr-xr-x 1 vaishnavi 197121       0 Jul 20 10:45  .3T/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 17 17:57  .android/
+-rw-r--r-- 1 vaishnavi 197121     175 Aug  4 19:12  .angular-config.json
+-rw-r--r-- 1 vaishnavi 197121    1047 Aug 18 19:06  .bash_history
+drwxr-xr-x 1 vaishnavi 197121       0 Jul 18 11:58  .cache/
+-rw-r--r-- 1 vaishnavi 197121     225 Jul 20 00:55  .dbshell
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 16 10:55  .dotnet/
+-rw-r--r-- 1 vaishnavi 197121     144 Aug 18 18:55  .gitconfig
+-rw-r--r-- 1 vaishnavi 197121      20 Aug 18 18:22  .lesshst
+-rw-r--r-- 1 vaishnavi 197121      17 Aug 13 19:49  .minttyrc
+-rw-r--r-- 1 vaishnavi 197121       0 Jul 19 23:11  .mongorc.js
+-rw-r--r-- 1 vaishnavi 197121      47 Aug  9 17:08  .node_repl_history
+drwxr-xr-x 1 vaishnavi 197121       0 Jul 18 11:58  .swt/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 16 11:22  .templateengine/
+drwxr-xr-x 1 vaishnavi 197121       0 Jul 18 11:09  .vscode/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021 '3D Objects'/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  4 19:12  Angular/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  AppData/
+lrwxrwxrwx 1 vaishnavi 197121      34 Aug  3  2021 'Application Data' -> /c/Users/vaishnavi/AppData/Roaming/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Contacts/
+lrwxrwxrwx 1 vaishnavi 197121      62 Aug  3  2021  Cookies -> /c/Users/vaishnavi/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 18:13  Desktop/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 16 11:21  Documents/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 18:14  Downloads/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Favorites/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 19:06  GitDemo/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 17:36  IntelGraphicsProfiles/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Links/
+lrwxrwxrwx 1 vaishnavi 197121      32 Aug  3  2021 'Local Settings' -> /c/Users/vaishnavi/AppData/Local/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Music/
+lrwxrwxrwx 1 vaishnavi 197121      28 Aug  3  2021 'My Documents' -> /c/Users/vaishnavi/Documents/
+-rw-r--r-- 1 vaishnavi 197121 7602176 Aug 18 16:14  NTUSER.DAT
+-rw-r--r-- 1 vaishnavi 197121   65536 Aug  3  2021  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+-rw-r--r-- 1 vaishnavi 197121  524288 Aug  3  2021  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 vaishnavi 197121  524288 Aug  3  2021  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 vaishnavi 197121      70 Aug  3  2021  NetHood -> '/c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 17:36  OneDrive/
+drwxr-xr-x 1 vaishnavi 197121       0 Jul  5 09:50  Pictures/
+lrwxrwxrwx 1 vaishnavi 197121      70 Aug  3  2021  PrintHood -> '/c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 vaishnavi 197121      59 Aug  3  2021  Recent -> /c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021 'Saved Games'/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Searches/
+lrwxrwxrwx 1 vaishnavi 197121      59 Aug  3  2021  SendTo -> /c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 vaishnavi 197121      63 Aug  3  2021 'Start Menu' -> '/c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 vaishnavi 197121      62 Aug  3  2021  Templates -> /c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 13 21:23  Videos/
+-rw-r--r-- 1 vaishnavi 197121      47 Aug 18 18:55  bash
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 13 20:10  myProjectDir/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 13 20:11  newProjectDir/
+-rw-r--r-- 1 vaishnavi 197121  393216 Aug  3  2021  ntuser.dat.LOG1
+-rw-r--r-- 1 vaishnavi 197121 2031616 Aug  3  2021  ntuser.dat.LOG2
+-rw-r--r-- 1 vaishnavi 197121      20 Aug  3  2021  ntuser.ini
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 16 12:02  source/
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~
+$ echo "Welcome to the version control" >> welcome.txt
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~
+$ ls -al
+total 11565
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 19:08  ./
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  5 15:47  ../
+drwxr-xr-x 1 vaishnavi 197121       0 Jul 20 10:45  .3T/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 17 17:57  .android/
+-rw-r--r-- 1 vaishnavi 197121     175 Aug  4 19:12  .angular-config.json
+-rw-r--r-- 1 vaishnavi 197121    1047 Aug 18 19:06  .bash_history
+drwxr-xr-x 1 vaishnavi 197121       0 Jul 18 11:58  .cache/
+-rw-r--r-- 1 vaishnavi 197121     225 Jul 20 00:55  .dbshell
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 16 10:55  .dotnet/
+-rw-r--r-- 1 vaishnavi 197121     144 Aug 18 18:55  .gitconfig
+-rw-r--r-- 1 vaishnavi 197121      20 Aug 18 18:22  .lesshst
+-rw-r--r-- 1 vaishnavi 197121      17 Aug 13 19:49  .minttyrc
+-rw-r--r-- 1 vaishnavi 197121       0 Jul 19 23:11  .mongorc.js
+-rw-r--r-- 1 vaishnavi 197121      47 Aug  9 17:08  .node_repl_history
+drwxr-xr-x 1 vaishnavi 197121       0 Jul 18 11:58  .swt/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 16 11:22  .templateengine/
+drwxr-xr-x 1 vaishnavi 197121       0 Jul 18 11:09  .vscode/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021 '3D Objects'/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  4 19:12  Angular/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  AppData/
+lrwxrwxrwx 1 vaishnavi 197121      34 Aug  3  2021 'Application Data' -> /c/Users/vaishnavi/AppData/Roaming/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Contacts/
+lrwxrwxrwx 1 vaishnavi 197121      62 Aug  3  2021  Cookies -> /c/Users/vaishnavi/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 18:13  Desktop/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 16 11:21  Documents/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 18:14  Downloads/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Favorites/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 19:06  GitDemo/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 17:36  IntelGraphicsProfiles/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Links/
+lrwxrwxrwx 1 vaishnavi 197121      32 Aug  3  2021 'Local Settings' -> /c/Users/vaishnavi/AppData/Local/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Music/
+lrwxrwxrwx 1 vaishnavi 197121      28 Aug  3  2021 'My Documents' -> /c/Users/vaishnavi/Documents/
+-rw-r--r-- 1 vaishnavi 197121 7602176 Aug 18 16:14  NTUSER.DAT
+-rw-r--r-- 1 vaishnavi 197121   65536 Aug  3  2021  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+-rw-r--r-- 1 vaishnavi 197121  524288 Aug  3  2021  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 vaishnavi 197121  524288 Aug  3  2021  NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 vaishnavi 197121      70 Aug  3  2021  NetHood -> '/c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 18 17:36  OneDrive/
+drwxr-xr-x 1 vaishnavi 197121       0 Jul  5 09:50  Pictures/
+lrwxrwxrwx 1 vaishnavi 197121      70 Aug  3  2021  PrintHood -> '/c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 vaishnavi 197121      59 Aug  3  2021  Recent -> /c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021 'Saved Games'/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug  3  2021  Searches/
+lrwxrwxrwx 1 vaishnavi 197121      59 Aug  3  2021  SendTo -> /c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 vaishnavi 197121      63 Aug  3  2021 'Start Menu' -> '/c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 vaishnavi 197121      62 Aug  3  2021  Templates -> /c/Users/vaishnavi/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 13 21:23  Videos/
+-rw-r--r-- 1 vaishnavi 197121      47 Aug 18 18:55  bash
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 13 20:10  myProjectDir/
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 13 20:11  newProjectDir/
+-rw-r--r-- 1 vaishnavi 197121  786432 Aug  3  2021  ntuser.dat.LOG1
+-rw-r--r-- 1 vaishnavi 197121 2031616 Aug  3  2021  ntuser.dat.LOG2
+-rw-r--r-- 1 vaishnavi 197121      20 Aug  3  2021  ntuser.ini
+drwxr-xr-x 1 vaishnavi 197121       0 Aug 16 12:02  source/
+-rw-r--r-- 1 vaishnavi 197121      31 Aug 18 19:08  welcome.txt
+
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ echo "Welcome to the version control">>welcome.txt
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ ls -al
+total 17
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 18 19:22 ./
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 18 19:17 ../
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 18 19:20 .git/
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 18 19:20 GitDemo/
+-rw-r--r-- 1 vaishnavi 197121 31 Aug 18 19:22 welcome.txt
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ cat welcome.txt
+Welcome to the version control
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitDemo/
+        welcome.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ git add welcome.txt
+warning: in the working copy of 'welcome.txt', LF will be replaced by CRLF the next time Git touches it
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ git commit
+hint: Waiting for your editor to close the file...
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ git commit
+[master (root-commit) f2eaf18] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 welcome.txt
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitDemo/
+
+nothing added to commit but untracked files present (use "git add" to track)
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ git remote add origin https://github.com/KarakambadiNaveena/GitDemo.gitgit 
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (master)
+$ git branch -M main
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 ~/projectdir (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 255 bytes | 255.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/KarakambadiNaveena/GitDemo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+=========================================================================================================
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ git config --global --list
+user.name=KarakambadiNaveena
+user.email=naveenakarakambadi@gmail.com
+color.ui=auto
+core.editor=notepad++.exe -multiInst -noseesion
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ ls -al
+total 13
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 20 21:29 ./
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 20 18:37 ../
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 20 21:35 .git/
+-rw-r--r-- 1 vaishnavi 197121 20 Aug 20 18:48 .gitignore
+-rw-r--r-- 1 vaishnavi 197121 31 Aug 20 19:38 hello.txt
+-rw-r--r-- 1 vaishnavi 197121 82 Aug 20 21:29 hello.xml
+-rw-r--r-- 1 vaishnavi 197121  0 Aug 20 18:50 hi.txt
+-rw-r--r-- 1 vaishnavi 197121 19 Aug 20 18:52 sample.log
+-rw-r--r-- 1 vaishnavi 197121 32 Aug 20 18:37 welcome.txt
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ echo "Creating new text file">>sam.txt
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ ls -al
+total 14
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 20 22:18 ./
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 20 18:37 ../
+drwxr-xr-x 1 vaishnavi 197121  0 Aug 20 21:35 .git/
+-rw-r--r-- 1 vaishnavi 197121 20 Aug 20 18:48 .gitignore
+-rw-r--r-- 1 vaishnavi 197121 31 Aug 20 19:38 hello.txt
+-rw-r--r-- 1 vaishnavi 197121 82 Aug 20 21:29 hello.xml
+-rw-r--r-- 1 vaishnavi 197121  0 Aug 20 18:50 hi.txt
+-rw-r--r-- 1 vaishnavi 197121 23 Aug 20 22:18 sam.txt
+-rw-r--r-- 1 vaishnavi 197121 19 Aug 20 18:52 sample.log
+-rw-r--r-- 1 vaishnavi 197121 32 Aug 20 18:37 welcome.txt
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ cat sam.txt
+Creating new text file
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sam.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ git add .
+warning: in the working copy of 'sam.txt', LF will be replaced by CRLF the next time Git touches it
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ git commit -m "firstcommit"
+[main 389ec3c] firstcommit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 sam.txt
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/KarakambadiNaveena/GitDemo
+   d862a28..389ec3c  main -> main
+
+vaishnavi@LAPTOP-1HSGU7I4 MINGW64 /d/Assignments/GitDemo (main)
+$ git pull origin main
+From https://github.com/KarakambadiNaveena/GitDemo
+ * branch            main       -> FETCH_HEAD
+Already up to date.

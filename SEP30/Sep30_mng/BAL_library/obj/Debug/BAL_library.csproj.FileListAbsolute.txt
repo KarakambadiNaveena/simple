@@ -1,0 +1,6 @@
+D:\C#\Sep30_mng\BAL_library\bin\Debug\BAL_library.dll
+D:\C#\Sep30_mng\BAL_library\bin\Debug\BAL_library.pdb
+D:\C#\Sep30_mng\BAL_library\obj\Debug\BAL_library.csproj.AssemblyReference.cache
+D:\C#\Sep30_mng\BAL_library\obj\Debug\BAL_library.csproj.CoreCompileInputs.cache
+D:\C#\Sep30_mng\BAL_library\obj\Debug\BAL_library.dll
+D:\C#\Sep30_mng\BAL_library\obj\Debug\BAL_library.pdb

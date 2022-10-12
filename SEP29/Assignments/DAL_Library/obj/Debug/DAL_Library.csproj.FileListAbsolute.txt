@@ -1,0 +1,12 @@
+D:\C#\code_sep29\DAL_Library\bin\Debug\DAL_Library.dll
+D:\C#\code_sep29\DAL_Library\bin\Debug\DAL_Library.pdb
+D:\C#\code_sep29\DAL_Library\obj\Debug\DAL_Library.csproj.AssemblyReference.cache
+D:\C#\code_sep29\DAL_Library\obj\Debug\DAL_Library.csproj.CoreCompileInputs.cache
+D:\C#\code_sep29\DAL_Library\obj\Debug\DAL_Library.dll
+D:\C#\code_sep29\DAL_Library\obj\Debug\DAL_Library.pdb
+D:\C#\code_sep29\DAL_Library\bin\Debug\DAL_Library.dll.config
+D:\C#\code_sep29\DAL_Library\bin\Debug\EntityFramework.dll
+D:\C#\code_sep29\DAL_Library\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\code_sep29\DAL_Library\bin\Debug\EntityFramework.xml
+D:\C#\code_sep29\DAL_Library\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\code_sep29\DAL_Library\obj\Debug\DAL_Library.csproj.CopyComplete

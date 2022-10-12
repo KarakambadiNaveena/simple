@@ -1,0 +1,8 @@
+D:\C#\model_sep29\model_sep29\bin\Debug\model_sep29.exe.config
+D:\C#\model_sep29\model_sep29\bin\Debug\model_sep29.exe
+D:\C#\model_sep29\model_sep29\bin\Debug\model_sep29.pdb
+D:\C#\model_sep29\model_sep29\obj\Debug\model_sep29.csproj.AssemblyReference.cache
+D:\C#\model_sep29\model_sep29\obj\Debug\model_sep29.csproj.SuggestedBindingRedirects.cache
+D:\C#\model_sep29\model_sep29\obj\Debug\model_sep29.csproj.CoreCompileInputs.cache
+D:\C#\model_sep29\model_sep29\obj\Debug\model_sep29.exe
+D:\C#\model_sep29\model_sep29\obj\Debug\model_sep29.pdb

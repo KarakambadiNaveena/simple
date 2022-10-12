@@ -1,0 +1,16 @@
+D:\C#\code_sep29\code_sep29\bin\Debug\code_sep29.exe.config
+D:\C#\code_sep29\code_sep29\bin\Debug\code_sep29.exe
+D:\C#\code_sep29\code_sep29\bin\Debug\code_sep29.pdb
+D:\C#\code_sep29\code_sep29\obj\Debug\code_sep29.csproj.AssemblyReference.cache
+D:\C#\code_sep29\code_sep29\obj\Debug\code_sep29.csproj.SuggestedBindingRedirects.cache
+D:\C#\code_sep29\code_sep29\obj\Debug\code_sep29.csproj.CoreCompileInputs.cache
+D:\C#\code_sep29\code_sep29\obj\Debug\code_sep29.exe
+D:\C#\code_sep29\code_sep29\obj\Debug\code_sep29.pdb
+D:\C#\code_sep29\code_sep29\bin\Debug\DAL_Library.dll
+D:\C#\code_sep29\code_sep29\bin\Debug\EntityFramework.dll
+D:\C#\code_sep29\code_sep29\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\code_sep29\code_sep29\bin\Debug\DAL_Library.pdb
+D:\C#\code_sep29\code_sep29\bin\Debug\DAL_Library.dll.config
+D:\C#\code_sep29\code_sep29\bin\Debug\EntityFramework.xml
+D:\C#\code_sep29\code_sep29\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\code_sep29\code_sep29\obj\Debug\code_sep29.csproj.CopyComplete
